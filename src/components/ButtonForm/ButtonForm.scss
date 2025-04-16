@@ -1,0 +1,30 @@
+.form__btn {
+    &__button {
+        border-radius: 8px;
+        width: 250px;
+        height: 36px;
+        background: #4880ff;
+        opacity: 0.9;
+        outline: none;
+        border: none;
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #fff;
+        cursor: pointer;
+    }
+    &__textUnderBtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &__text {
+            font-size: 12px;
+            opacity: 0.65;
+        }
+        &__link {
+            font-size: 14px;
+            color: #4880ff;
+        }
+    }
+}
