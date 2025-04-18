@@ -32,7 +32,7 @@ const LoginForm = () => {
                         <Input label="Password:" id="password" name="password" type="password"/>
                         <Checkbox id="checkbox" label="Remember Password"/>
                     </div>
-                    <ButtonForm descrBtn="Sign Up" textCreateOrLogin="Login" textUnderBtn="Already have an account?"/>
+                    <ButtonForm descrBtn="Sign Up" textCreateOrLogin="Create Account" textUnderBtn="Don’t have an account? "/>
                 </Form>
             </Formik>
     )
